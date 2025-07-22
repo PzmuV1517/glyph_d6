@@ -1,0 +1,33 @@
+C:\Users\child\AndroidStudioProjects\glyph_d6\gradle\libs.versions.toml:4: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+C:\Users\child\AndroidStudioProjects\glyph_d6\gradle\libs.versions.toml:5: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+C:\Users\child\AndroidStudioProjects\glyph_d6\gradle\libs.versions.toml:6: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+appcompat = "1.6.1"
+            ~~~~~~~
+C:\Users\child\AndroidStudioProjects\glyph_d6\gradle\libs.versions.toml:7: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+material = "1.10.0"
+           ~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\child\AndroidStudioProjects\glyph_d6\app\src\main\AndroidManifest.xml:30: Warning: Exported service does not require permission [ExportedService]
+        <service android:name=".GlyphToyService"
+         ~~~~~~~
+
+   Explanation for issues of type "ExportedService":
+   Exported services (services which either set exported=true or contain an
+   intent-filter and do not specify exported=false) should define a permission
+   that an entity must have in order to launch the service or bind to it.
+   Without this, any application can use this service.
+
+   https://goo.gle/ExportedService
+
+0 errors, 5 warnings

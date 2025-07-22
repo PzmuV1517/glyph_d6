@@ -1,0 +1,4 @@
+#Tue Jul 22 19:21:01 EEST 2025
+base.0=C\:\\Users\\child\\AndroidStudioProjects\\glyph_d6\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
