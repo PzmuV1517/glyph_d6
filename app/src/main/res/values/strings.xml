@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">glyph_d6</string>
+
+    <!-- Glyph Toy strings -->
+    <string name="toy_name">D6 Dice Toy</string>
+    <string name="toy_summary">Roll a virtual dice on the Glyph Matrix</string>
+</resources>
